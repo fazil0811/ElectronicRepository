@@ -12,8 +12,8 @@ public class Api1Controller {
 		return "fazil";
 	}
 	
-	@GetMapping(value="/getnum/{a}")
-	public int getNum(@PathVariable int a) {
-		return a;
+	@GetMapping(value="/getnum/{b}")
+	public int getNum(@PathVariable int b) {
+		return b;
 	}
 }
